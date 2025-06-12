@@ -91,8 +91,12 @@ public class C03Operator {
          */
 
         // 비트 연산자 : 컴퓨터의 2진 체계에서의 연산 방식 &, |, ^, <<, >>
-
-
-
+        int n1 = 5;
+        int n2 = 4;
+        // 2수를 &비트연산 하게 되면, 각 자릿수에 모두 1일 있어야 결과값이 나옴
+        System.out.println(n1&n2); // 두 수를 2진수로 바꾸고 각 자릿수에
+        System.out.println(n1|n2); // 두 수중 하나라도 1이 있으면
+        System.out.println(n1<<1); // 왼쪽으로 1번 옮기면 해당 숫자값에 *2
+        System.out.println(n1>>1); // 왼쪽으로 1번 옮기면 해당 숫자값에 /2
     }
 }
