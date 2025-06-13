@@ -214,12 +214,12 @@ public class C06String {
 
         //null과 공백의 차이
         String st1 = null; //null 은 String 아니나, 특수한 타입이기에 가능
-        String st2 = ""; //공백은 문자열
+        String st2 = ""; //빈 문자열은 문자열
         System.out.println(st1 == st2);
         System.out.println(st2.isEmpty()); //true
         //System.out.println(st1.isEmpty()); //error : NullPointerException 발생
         String st3 = " ";
-        System.out.println(st3.isEmpty());
+        System.out.println(st3.isEmpty()); // 실무에서 좀 쓰임
         System.out.println(st3.isBlank());
 
         String abc = "Hello    World  Java";
