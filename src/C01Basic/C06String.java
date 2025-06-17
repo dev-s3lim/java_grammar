@@ -291,15 +291,13 @@ public class C06String {
 
          */
 
-        //
-        String A = "banana";
+        //문자열 비교
+        String s1 = "hello";
+        String s2 = "dello";
+        String s3 = "hello";
 
-        StringBuffer sb = new StringBuffer();
-        for (int i = A.length()-1; i >= 0; i--){
-            sb.append(A.charAt(i));
-            sb.insert(0, sb.length()-1);
-            sb.deleteCharAt(sb.length()-1);
-        }
-        System.out.println(sb);
+        System.out.println(s1.compareTo(s2)); //양수
+        System.out.println(s2.compareTo(s1)); //음수
+        System.out.println(s1.compareTo(s3)); //0
     }
 }
