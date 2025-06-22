@@ -29,9 +29,20 @@ public class C07Constructor {
             this.day = day;
         }
 
+        //메서드 (생성자) 오버로딩 예시
+        public void dateInfo(String year, String month) {
+            this.year = year;
+            this.month = month;
+        }
+
         // 별도 생성자를 추가할 경우, 초기 (기본) 생성자는 무시가되므로, 필요 시 별도로 추가
         public String printDate() {
             return this.year + "년 " + this.month + "월 " + this.day + "일";
         }
+
+        //객체 = instance
+        //클래스는 객체는 아님
+        //객체를 생성시, 고유의 힙 메모리가 할당됨
+        //생성자는 보통 public, 그리고 return 안함
     }
 }

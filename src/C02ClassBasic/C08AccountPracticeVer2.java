@@ -20,7 +20,7 @@ public class C08AccountPracticeVer2 {
 
         System.out.println("\n" + "toString으로 사용 시..." + "\n");
         for (Account answer : list) {
-            System.out.println(answer.toString());
+            System.out.println(answer);
         }
     }
 
