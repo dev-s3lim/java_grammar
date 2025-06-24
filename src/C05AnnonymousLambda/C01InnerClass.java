@@ -5,7 +5,7 @@ public class C01InnerClass {
         MemberInnerClass m = new MemberInnerClass();
         System.out.println(m.getA());
 
-        MemberInnerClass.StaticInnerClass ms1 = new MemberInnerClass.StaticInnerClass();
+        MemberInnerClass.StaticInnerClass ms1 = new MemberInnerClass.StaticInnerClass(); ///일반클래스명.
         ms1.display();
     }
 }
