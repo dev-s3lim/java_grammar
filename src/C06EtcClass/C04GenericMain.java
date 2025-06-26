@@ -1,7 +1,6 @@
 package C06EtcClass;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class C04GenericMain {
