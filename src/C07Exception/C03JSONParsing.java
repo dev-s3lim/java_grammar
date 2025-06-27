@@ -18,7 +18,7 @@ public class C03JSONParsing {
     public static void main(String[] args) throws IOException {
         /// 사용법 1 (객체 생성 readValue)
         /// ObjectMapper : json 직렬화, 역직렬화를 위한 라이브러리
-        ObjectMapper o1 = new ObjectMapper();
+        ObjectMapper o1 = new ObjectMapper(); /// Jackson
         /// 사용법 2 : 클래스명 객체명 = o1.readValue(문자열, 클래스명);
 
         Path filePath = Paths.get("/Users/shlim/Desktop/16기/java_grammar/src/C07Exception/myjson1.json");
